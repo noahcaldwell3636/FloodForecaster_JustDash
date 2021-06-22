@@ -1,0 +1,93 @@
+2.1 -   seperate all the different dash applications running in dashin.py
+        - this is so the apps can be easily placed in the django template
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://plotly.com/python/colorscales/ (instead of the line plots for the flood zones)
+
+OBJECTIVES:
+#####################################################################################
+1.14 make the static value for the 'record' plot attached to the value provided by the xml on the web
+    - also make the zone levels update 
+1.18 make all widgets and element sizes a percentage, to help aid with different screen sizes
+1.20 look into replacing the legend with graph annotations (would require a y-axis anchor)
+1.21 get precipitation probability for the next 48 hours, accompanied with the hourly precipitation type
+1.22 get the precipitation proability for the next 6 days
+1.23 get the daily preciptiation accumulation
+1.24 get the realtime moon phase
+1.25 provide air quality data
+1.26 fire hazard index
+1.27 (LARGE PROJECT) seperate the widgets into individual apps, so they may be 
+inserted as a tag in your django project. This would enable the flexibility to
+move the widgets around within its html document. This ultimately would allow the 
+user to be able to create their own dashboards, moving around the provided widgets
+to the location and size of thier choice.
+
+
+
+FINISHED:
+19. update the style of all widgets somewhere other than layout to reduce complexity.
+
+17. display metrics from ClimaCell
+    a-'temp',
+    b-'feels_like',
+    c-'humidity',
+    d-'wind_speed',
+    e-'wind_gust',
+    f-'baro_pressure',
+    g-'precipitation',
+    h-'precipitation_type',
+    i-'sunrise',
+    j-'sunset',
+    k-'visibility',
+    l-'cloud_cover',
+    m-'weather_code',
+    n-'precipitation_probability',
+
+1.15 bring in live temperature gaug
+
+1.12 name traces in in the key/legend
+1.11 make axis ticks and labels white
+1.10 make the observed plot an area chart
+1.9 add current level metric
+1.8 scale Y with zones, change hieght
+1.7 create flood zones for the graph
+1.6 give the flood graph a proper Y range
+1.5 create the graph as a plotly.graph_obj
+1.4 reconfigure for new repository
+1.3 add missing data points to forecasted data so its size is proprotional to the
+time lapsed
+    a- time (output list complete)
+    b- levels (output list complete)
+    c- zip and display the data on dash
+        d- create bridge data between observed and forecasted (completed)
+        e- create a unified date string format (completed)
+        f- step through whole pipline, refactoring and tending to objective 'd' (completed) 
+1.2 add the forecasted scatterplot trace to graph
+1.1 return the forecasted dataset
+    - seperate out redundant lines of code into new methods from observed getter
