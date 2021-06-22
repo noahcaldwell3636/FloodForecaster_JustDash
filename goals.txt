@@ -1,5 +1,20 @@
+Phase 2
+#####################################################################################
+
+XxXxXxXxXxXXxXxXxXxXxX
+CURRENT TASK:
+
+
+XxXxXxXxXxXXxXxXxXxXxX
+
+
+
+
 2.1 -   seperate all the different dash applications running in dashin.py
         - this is so the apps can be easily placed in the django template
+
+2.2 -   test the NOAA_api and ClimaCell-api, refactoring them along
+        the way
 
 
 
@@ -30,7 +45,7 @@
 
 https://plotly.com/python/colorscales/ (instead of the line plots for the flood zones)
 
-OBJECTIVES:
+Phase 1:
 #####################################################################################
 1.14 make the static value for the 'record' plot attached to the value provided by the xml on the web
     - also make the zone levels update 
