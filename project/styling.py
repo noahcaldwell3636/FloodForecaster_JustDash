@@ -1,4 +1,4 @@
-from helper_methods import *
+from data_fetch_for_dash import FloodData
 import dash_html_components as html
 
 
